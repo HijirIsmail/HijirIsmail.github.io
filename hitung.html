@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 JavaScript</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <script src="./script.js"></script>
+
+    <div class="menghitung-nilai">
+        <center>
+    <h1 class ="judul-mean">Tugas 1 JavaScript <br><br> Menghitung Nilai</h1>
+        </center>
+    <form class="isi-mean">
+        Angka-1 : <input type="text" name="" id="firstNum"> <br><br>
+        Angka-2 : <input type="text" name="" id="secondNum"> <br><br>
+        Angka-3 : <input type="text" name="" id="thirdNum"> <br><br>
+        <input class="hit" type="button" onclick="average(),highest(),lowest(),middle()" value="Hitung" id="myInput">
+        <input class="hit" type="button" onclick="document.getElementById('firstNum').value='', 
+        document.getElementById('secondNum').value='', 
+        document.getElementById('thirdNum').value='',
+        document.getElementById('hasil').value='',
+        document.getElementById('nilaimin').innerHTML = '',
+        document.getElementById('hasil').innerHTML = '',
+        document.getElementById('nilaimax').innerHTML = '',
+        document.getElementById('nilaitengah').innerHTML = ''"
+        value="Hapus">
+    </form>
+
+    <div class="tampil-mean">
+        <p> 
+            <p>Nilai Rata-Rata : </p>
+            <span id="hasil"></span> <br>
+            <p>Nilai Terendah : </p>
+            <span id="nilaimin"></span> <br>
+            <p>Nilai Tengah : </p>
+            <span id="nilaitengah"></span> <br>
+            <p>Nilai Tertinggi : </p>
+            <span id="nilaimax"></span> <br>
+        </p>
+        <div class="pindah-page">
+            <form method="get" action="./index.html">
+            <button type="kembali" name="button">Kembali</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    </div>
+</body>
+</html>
