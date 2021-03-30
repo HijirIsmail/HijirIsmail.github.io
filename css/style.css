@@ -197,6 +197,16 @@ button[type="tugas1"] {
    margin-left: 600px
 }
 
+button[type="tugas2"] {
+    background-color: green;
+    color: lime;
+    border-bottom: solid 2px;
+    text-align: center;
+    padding: 13px;
+    margin-left: 563px;
+    margin-top : 15px;
+}
+
 button[type="kembali"] {
     background-color: white;
     color: black;
