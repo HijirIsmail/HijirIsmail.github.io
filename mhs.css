@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Helvetica;
+    color : black;
+    line-height: 25px;
+    background-image: url(/fire.png); background-size: cover; background-attachment: fixed; 
+    animation: fadeIn 2s;
+    opacity: 95%;
+}
+
+button[type="kembali"] {
+    background-color: white;
+    color: black;
+    border-bottom: solid 3px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: 90%;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: lime;
+    background-color: green;
+    width: 50%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.frmIsi{
+    
+    background-color: green;
+    width: 500px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: lime inset;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    margin-left: 30px;
+    padding: 5spx;
+}
+
+table{
+    
+    font: 14px;
+    font-family: Helvetica;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    width: 150px; 
+    margin-top: 3px; 
+    display: inline-block;
+}
+
+.tabel th {
+    background-color: green;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.tabel td {
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.tabel tr:nth-child(odd){
+    background-color: green;
+}
+
+.tabel tr:nth-child(even){
+    background-color: green;
+}

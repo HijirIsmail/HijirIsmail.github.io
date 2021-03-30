@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas OOP dan Getter & Setter</title>
+    <link rel="stylesheet" href="./mhs.css">
+</head>
+<body>
+    <center>
+        <h1>Tugas OOP dan Getter & Setter</h1>
+    </center>
+    <form id ='frm' class ="frmIsi">
+    <h2>Registrasi Mahasiswa</h2>
+    <p>
+        <br><label for="nama">Nama :</label>
+        <input id="nama" type="text" maxlength="50" required/>
+    </p>
+    <p>
+        <label for="nim">NIM :</label>
+        <input id="nim" type="text" maxlength="20" required/>
+    </p>
+    <p>
+        <label for="departemen">Departemen :</label>
+        <input id="departemen" type="text" maxlength="40" required/>
+    </p>
+    <p>
+        <label for="email">E-Mail :</label>
+        <input id="email" type="text" maxlength="40" required/>
+    </p>
+    <center>
+    <p>
+        <input id='btnTambah' type ="submit" value="Daftar"/>
+        <button type="button" onclick="reset()" >Hapus</button>
+    </p>
+    </center>
+    <p id="pesan"></p>
+    </form>
+    <table class="tabel">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Departemen</th>
+                <th>E-Mail</th>
+            </tr>
+        </thead>
+        <tbody id="tabel">
+        </tbody>
+    </table>
+    <div class="pindah-page">
+        <form method="get" action="./index.html">
+        <button type="kembali" name="button">Kembali</button>
+        </form>
+    </div>
+</body>
+<script src="./mhs.js"></script>
+</html>
