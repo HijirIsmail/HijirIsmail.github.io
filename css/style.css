@@ -194,7 +194,7 @@ button[type="tugas1"] {
     border-bottom: solid 2px;
     text-align: center;
     padding: 13px;
-   margin-left: 600px
+    margin-left: 600px
 }
 
 button[type="tugas2"] {
@@ -204,6 +204,16 @@ button[type="tugas2"] {
     text-align: center;
     padding: 13px;
     margin-left: 563px;
+    margin-top : 15px;
+}
+
+button[type="tugas3"] {
+    background-color: green;
+    color: lime;
+    border-bottom: solid 2px;
+    text-align: center;
+    padding: 13px;
+    margin-left: 620px;
     margin-top : 15px;
 }
 
