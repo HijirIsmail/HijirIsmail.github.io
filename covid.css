@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(/fire.png); background-size: cover; background-attachment: fixed; 
+    background-color: black;
+    margin: 0;
+    height: auto;
+    font-family: Helvetica;
+    line-height: 24px;
+    color: white;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    animation: fadeIn 2s;
+    background-color: rgb(25, 25, 25);
+}
+
+.table-worldwide{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.container p{
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.table-indonesia{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.table-singapore{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.table-malaysia{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.table-vietnam {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
